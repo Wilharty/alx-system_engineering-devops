@@ -1,2 +1,2 @@
 #!/bin/bash
-find '/etc/passwd' | :xgrep -i 'root' 
+grep -i 'root' /etc/passwd
